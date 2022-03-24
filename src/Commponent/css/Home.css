@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(175, 45, 45),
+    rgba(168, 44, 44, 0)
+  );
+}
+.row__container {
+  margin-top: -250px;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row__container {
+    margin-top: -100px;
+  }
+  .home__row {
+    display: block;
+  }
+}
