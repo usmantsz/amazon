@@ -1,0 +1,47 @@
+.payment__container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.payment__heading{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid lightgray;
+    
+}
+.payment__heading>h1>a{
+    text-decoration: none;
+}
+.payment__section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.payment__title{
+   margin-right: 20px;
+   
+}
+
+.payment__section .payment__details {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.payment__pricecontainer{
+    padding: 20px;
+    border: 1px solid lightgray;
+    padding-left: auto;
+    padding-right: auto;
+}
+.payment__pricecontainer .subtotal__gift{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.payment__pricecontainer > button{
+    height: 30px;
+    justify-self: center;
+}

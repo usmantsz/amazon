@@ -1,0 +1,11 @@
+[debug] [2022-03-24T17:03:08.912Z] ----------------------------------------------------------------------
+[debug] [2022-03-24T17:03:08.914Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --project clone-9c980
+[debug] [2022-03-24T17:03:08.915Z] CLI Version:   10.4.1
+[debug] [2022-03-24T17:03:08.915Z] Platform:      win32
+[debug] [2022-03-24T17:03:08.915Z] Node Version:  v16.13.2
+[debug] [2022-03-24T17:03:08.916Z] Time:          Thu Mar 24 2022 22:03:08 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-03-24T17:03:08.916Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-24T17:03:08.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-24T17:03:08.999Z] > authorizing via signed-in user (usmanali0013691@gmail.com)
+[info] i  emulators: Starting emulators: functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore"}}
